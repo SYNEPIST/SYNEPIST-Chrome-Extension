@@ -8,5 +8,7 @@
 ## TODO
 - [ ] Train Email Subject Line Generation model
 - [ ] Pre-trained model ONNX.js deployment
-- [ ] popup instruction page design
-- [x] Gmail support 
+- [x] popup page design and implementiation
+- [x] Gmail support
+- [ ] README usage section
+- [ ] README GIF demo 
