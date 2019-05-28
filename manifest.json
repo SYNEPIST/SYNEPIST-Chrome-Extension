@@ -20,8 +20,15 @@
     },
     "author": "MAXEE998",
     "background": {
-        "scripts": ["js/background.js"],
+        "scripts": ["js/onnx.min.js" ,"js/background.js"],
         "persistent": false
     },
+    "content_scripts" : [
+        {
+          "matches": ["https://mail.google.com/*", "https://inbox.google.com/*"],
+          "js": ["js/inboxsdk.js", "js/gmailCS.js"]
+        }
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
     "permissions": ["declarativeContent"]
 }
