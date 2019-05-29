@@ -6,7 +6,7 @@
 ![alt text](images/design.png)
 
 ## TODO
-- [ ] Train Email Subject Line Generation model
+- [x] Train Email Subject Line Generation model
 - [ ] Pre-trained model ONNX.js deployment
 - [x] popup page design and implementiation
 - [x] Gmail support
